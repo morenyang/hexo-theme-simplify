@@ -1,0 +1,13 @@
+# site
+favicon: /favicon.png
+
+# header
+background-image:
+
+# menu
+nav:
+  Home: /.
+  Archive: /archives
+  About: //yangteng.me
+
+
