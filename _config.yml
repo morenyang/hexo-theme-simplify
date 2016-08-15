@@ -14,3 +14,9 @@ nav:
   Archive: /archives
   About: //yangteng.me
 
+# if you want to change default styles, please install hexo-renderer-less.
+# Less
+less:
+  paths:
+    - source/css
+  compress: true

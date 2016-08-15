@@ -26,5 +26,23 @@ base on [hexo-theme-again](https://github.com/DrakeLeung/hexo-theme-again)
     git pull
     ```
 
+## Custom Styles
+You can customize or add styles in [less](http://lesscss.org/) files.
+**Before** changing the styles, please:
+
+1. Remove the `style.css` file in `source` directory.
+
+2. Install hexo-renderer-less plugin.
+    Execute the following command in your `hexo` directory:
+    ```npm
+    npm install hexo-renderer-less --save
+    ```
+
+3. Clean the `public` directory.
+    Execute the following command in your `hexo` directory:
+    ```hexo
+    hexo clean
+    ```
+
 ## License
 Code released under the MIT license.
