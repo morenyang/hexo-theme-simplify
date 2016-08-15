@@ -182,6 +182,7 @@ html {
 body {
   margin: 0;
   font-family: 'Oxygen', 'Source Han Sans', 'PingFang SC', 'HanHei SC', 'Microsoft YaHei UI Light', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  min-height: 100vh;
 }
 a {
   text-decoration: none;
