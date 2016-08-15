@@ -35,9 +35,14 @@ main.index {
     margin-top: @article-gutter;
     font-size: @page-nav-font-size;
 
+    @page-nav-color: #666;
     .page-number {
       padding: @gutter / 3;
-      color: @anchor-color;
+      color: @page-nav-color;
+      &:hover{
+        color: #777;
+        transition: all 0.1s ease-in 0s;
+      }
     }
     .current {
       // color: @page-nav-current-page;
@@ -46,7 +51,11 @@ main.index {
 
     .extend {
       padding: 0 @gutter;
-      color: @anchor-color;
+      color: @page-nav-color;
+      &:hover{
+        color: #777;
+        transition: all 0.1s ease-in 0s;
+      }
     }
   }
 }

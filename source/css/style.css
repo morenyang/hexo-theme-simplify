@@ -193,7 +193,7 @@ main.archive {
   margin: 0 auto;
 }
 main.archive .placeholder {
-  height: 20vh;
+  height: 25vh;
 }
 main.archive article {
   margin-top: 30px;
@@ -226,14 +226,14 @@ main.archive .page-nav {
 }
 main.archive .page-nav .page-number {
   padding: 5px;
-  color: #5badf0;
+  color: #666;
 }
 main.archive .page-nav .current {
   color: inherit;
 }
 main.archive .page-nav .extend {
   padding: 0 15px;
-  color: #5badf0;
+  color: #666;
 }
 main.post {
   max-width: 800px;
@@ -293,60 +293,66 @@ main.post .article-comment {
 .page li {
   margin-left: 15px;
 }
-.header {
+header.header {
   text-align: left;
   background: #f6f6f6 no-repeat center center;
   background-size: cover;
 }
-.header h1,
-.header h3 {
+header.header h1,
+header.header h3 {
   margin: 0 !important;
 }
-.header .placeholder {
+header.header .placeholder {
   position: relative;
   overflow: hidden;
   z-index: -1024;
-  padding-top: 20vh;
+  padding-top: 30vh;
 }
-.header .content {
+header.header .content {
   padding-bottom: 50px;
 }
-.header .content .layout {
+header.header .content .layout {
   margin: 0 auto;
   max-width: 100%;
   padding-left: 15px;
 }
 @media (min-width: 768px) {
-  .header .content .layout {
+  header.header .content .layout {
     padding-left: 0;
     max-width: 640px;
   }
 }
 @media (min-width: 1024px) {
-  .header .content .layout {
+  header.header .content .layout {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  .header .content .layout {
+  header.header .content .layout {
     max-width: 1200px;
   }
 }
-.header .content .title {
+header.header .content .title {
   font: 300 32px/1.5 'Oxygen', sans-serif;
 }
 @media (min-width: 768px) {
-  .header .content .title {
+  header.header .content .title {
     font-size: 60px;
   }
 }
-.header .content .subtitle {
+header.header .content .subtitle {
   font: 300 20px/1.4 'Raleway', sans-serif;
 }
 @media (min-width: 768px) {
-  .header .content .subtitle {
+  header.header .content .subtitle {
     font-size: 32px;
   }
+}
+header.light {
+  background-color: #393939;
+}
+header.light .layout {
+  color: white;
 }
 main.index {
   max-width: 800px;
@@ -382,14 +388,22 @@ main.index .page-nav {
 }
 main.index .page-nav .page-number {
   padding: 5px;
-  color: #5badf0;
+  color: #666;
+}
+main.index .page-nav .page-number:hover {
+  color: #777;
+  transition: all 0.1s ease-in 0s;
 }
 main.index .page-nav .current {
   color: inherit;
 }
 main.index .page-nav .extend {
   padding: 0 15px;
-  color: #5badf0;
+  color: #666;
+}
+main.index .page-nav .extend:hover {
+  color: #777;
+  transition: all 0.1s ease-in 0s;
 }
 .footer {
   height: 80px;
@@ -463,4 +477,10 @@ main.index .page-nav .extend {
 }
 .navbar .active {
   border-bottom-color: #666;
+}
+.navbar .light a {
+  color: white;
+}
+.navbar .light .active {
+  border-bottom-color: white;
 }

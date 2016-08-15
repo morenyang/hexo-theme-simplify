@@ -221,12 +221,20 @@ main.index .page-nav {
 }
 main.index .page-nav .page-number {
   padding: 5px;
-  color: #5badf0;
+  color: #666;
+}
+main.index .page-nav .page-number:hover {
+  color: #777;
+  transition: all 0.1s ease-in 0s;
 }
 main.index .page-nav .current {
   color: inherit;
 }
 main.index .page-nav .extend {
   padding: 0 15px;
-  color: #5badf0;
+  color: #666;
+}
+main.index .page-nav .extend:hover {
+  color: #777;
+  transition: all 0.1s ease-in 0s;
 }

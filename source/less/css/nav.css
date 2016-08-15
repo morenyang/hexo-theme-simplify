@@ -242,3 +242,9 @@ a {
 .navbar .active {
   border-bottom-color: #666;
 }
+.navbar .light a {
+  color: white;
+}
+.navbar .light .active {
+  border-bottom-color: white;
+}

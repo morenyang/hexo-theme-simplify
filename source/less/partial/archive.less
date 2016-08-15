@@ -6,7 +6,7 @@ main.archive {
   margin: 0 auto;
 
   .placeholder {
-    height: 20vh;
+    height: 25vh;
   }
   article {
     margin-top: @archive-gutter;
@@ -34,6 +34,7 @@ main.archive {
     }
   }
 
+  @page-nav-color: #666;
   .page-nav {
     text-align: center;
     margin-top: 6 * @gutter;
@@ -41,7 +42,7 @@ main.archive {
 
     .page-number {
       padding: @gutter / 3;
-      color: @anchor-color;
+      color: @page-nav-color;
     }
     .current {
       // color: @page-nav-current-page;
@@ -50,7 +51,7 @@ main.archive {
 
     .extend {
       padding: 0 @gutter;
-      color: @anchor-color;
+      color: @page-nav-color;
     }
   }
 }
