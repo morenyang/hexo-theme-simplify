@@ -5,6 +5,9 @@
 .grid-item {
   flex: 1;
 }
+img {
+  max-width: 100%;
+}
 .code-block {
   background: #2d2d2d;
   margin: 0;
